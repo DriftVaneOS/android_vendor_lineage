@@ -1,0 +1,19 @@
+//
+// SPDX-FileCopyrightText: DriftVaneOS
+// SPDX-License-Identifier: Apache-2.0
+//
+// Hachigram (Telegram client), preinstalled with permission from its developer.
+// Keeps its own signature, so updates from the developer install over it.
+//
+
+android_app_import {
+    name: "Hachigram",
+    apk: "Hachigram.apk",
+    presigned: true,
+    preprocessed: true,
+    skip_preprocessed_apk_checks: true,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
