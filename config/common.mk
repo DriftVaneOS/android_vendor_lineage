@@ -317,3 +317,7 @@ PRODUCT_PACKAGES += \
     DriftVaneForlornSignalOverlay \
     DriftVaneForlornSystemUIOverlay \
     DriftVaneForlornWiFiOverlay
+
+# DriftVaneOS: wallpapers
+PRODUCT_PACKAGES += \
+    DriftVaneWallpapers

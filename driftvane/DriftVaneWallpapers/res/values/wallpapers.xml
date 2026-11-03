@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="partner_wallpapers" translatable="false">
+        <item>driftvane_default</item>
+        <item>driftvane_frost_arcs</item>
+        <item>driftvane_frost_glow</item>
+        <item>driftvane_indigo_contours</item>
+        <item>driftvane_indigo_vanes</item>
+        <item>driftvane_jade_contours</item>
+        <item>driftvane_jade_glow</item>
+        <item>driftvane_lemongrass_arcs</item>
+        <item>driftvane_lemongrass_drift</item>
+        <item>driftvane_moonstone_contours</item>
+        <item>driftvane_moonstone_drift</item>
+        <item>driftvane_obsidian_drift</item>
+        <item>driftvane_obsidian_vanes</item>
+        <item>driftvane_porcelain_arcs</item>
+        <item>driftvane_porcelain_glow</item>
+    </string-array>
+</resources>
