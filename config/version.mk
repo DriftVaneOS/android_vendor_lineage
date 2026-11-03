@@ -34,8 +34,13 @@ LINEAGE_VERSION_SUFFIX := $(LINEAGE_BUILD_DATE)-$(LINEAGE_BUILDTYPE)$(LINEAGE_EX
 # Internal version
 LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(LINEAGE_VERSION_SUFFIX)
 
-# Display version
-LINEAGE_DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR)-$(LINEAGE_VERSION_SUFFIX)
+# DriftVaneOS version
+DRIFTVANE_VERSION_MAJOR := 1
+DRIFTVANE_VERSION_MINOR := 0
+DRIFTVANE_VERSION := $(DRIFTVANE_VERSION_MAJOR).$(DRIFTVANE_VERSION_MINOR)-$(LINEAGE_VERSION_SUFFIX)
+
+# Display version (shown in Settings > About phone)
+LINEAGE_DISPLAY_VERSION := DriftVaneOS-$(DRIFTVANE_VERSION)
 
 # LineageOS version properties
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -43,3 +48,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION) \
     ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.lineage.releasetype=$(LINEAGE_BUILDTYPE)
+
+# DriftVaneOS version properties
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.driftvane.version=$(DRIFTVANE_VERSION) \
+    ro.driftvane.build.version=$(DRIFTVANE_VERSION_MAJOR).$(DRIFTVANE_VERSION_MINOR) \
+    ro.driftvane.base=LineageOS-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)
+
+# DriftVaneOS OTA server (never point at LineageOS's servers)
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/DriftVaneOS/OTA/main/{device}.json
