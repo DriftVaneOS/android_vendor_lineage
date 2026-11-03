@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: DriftVaneOS
+// SPDX-License-Identifier: Apache-2.0
+//
+// AlexLMP music player, preinstalled in DriftVaneOS.
+// Drop the release-signed APK next to this file as AlexLMP.apk.
+// It keeps its own signature (presigned), so normal updates from
+// GitHub / Play install over it like any other app.
+
+android_app_import {
+    name: "AlexLMP",
+    apk: "AlexLMP.apk",
+    presigned: true,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
