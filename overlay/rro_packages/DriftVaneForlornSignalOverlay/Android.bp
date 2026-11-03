@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: The DriftVaneOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+// Forlorn signal icons by DrDisagree, from crDroid's android_vendor_themes.
+//
+
+runtime_resource_overlay {
+    name: "DriftVaneForlornSignalOverlay",
+    certificate: "platform",
+    product_specific: true,
+}

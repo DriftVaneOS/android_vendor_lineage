@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The DriftVaneOS Project
+     SPDX-License-Identifier: Apache-2.0
+
+     Forlorn wifi icons by DrDisagree (crDroid android_vendor_themes).
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.driftvane.overlay.forlorn.wifi">
+
+    <overlay
+        android:isStatic="true"
+        android:priority="50"
+        android:targetPackage="android" />
+</manifest>

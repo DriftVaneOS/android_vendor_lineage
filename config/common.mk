@@ -311,3 +311,9 @@ include vendor/lineage/config/version.mk
 # DriftVaneOS: preinstalled apps
 PRODUCT_PACKAGES += \
     AlexLMP
+
+# DriftVaneOS: Forlorn status bar icons (by DrDisagree, via crDroid)
+PRODUCT_PACKAGES += \
+    DriftVaneForlornSignalOverlay \
+    DriftVaneForlornSystemUIOverlay \
+    DriftVaneForlornWiFiOverlay
