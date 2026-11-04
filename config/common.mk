@@ -322,3 +322,7 @@ PRODUCT_PACKAGES += \
 # DriftVaneOS: wallpapers
 PRODUCT_PACKAGES += \
     DriftVaneWallpapers
+
+# DriftVaneOS: lock screen clocks
+PRODUCT_PACKAGES += \
+    DriftVaneClocks
