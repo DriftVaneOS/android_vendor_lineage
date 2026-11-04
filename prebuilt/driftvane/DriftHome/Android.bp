@@ -1,0 +1,17 @@
+//
+// SPDX-FileCopyrightText: DriftVaneOS
+// SPDX-License-Identifier: Apache-2.0
+//
+// DriftHome, the DriftVaneOS launcher. Privileged so its HOME priority makes it the
+// default home on first boot. Launcher3 stays installed because it provides Recents.
+//
+
+android_app_import {
+    name: "DriftHome",
+    apk: "DriftHome.apk",
+    privileged: true,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
