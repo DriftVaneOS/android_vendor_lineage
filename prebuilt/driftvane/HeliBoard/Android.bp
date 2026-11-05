@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: DriftVaneOS
+// SPDX-License-Identifier: Apache-2.0
+//
+// HeliBoard keyboard (GPL-3.0, https://github.com/HeliBorg/HeliBoard), preinstalled
+// as the DriftVaneOS keyboard in place of LatinIME. Keeps its own signature
+// (presigned) so updates from HeliBoard's GitHub releases install over it.
+//
+
+android_app_import {
+    name: "HeliBoard",
+    apk: "HeliBoard.apk",
+    presigned: true,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}

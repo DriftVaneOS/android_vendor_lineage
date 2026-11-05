@@ -327,3 +327,7 @@ PRODUCT_PACKAGES += \
 # DriftVaneOS: lock screen clocks
 PRODUCT_PACKAGES += \
     DriftVaneClocks
+
+# DriftVaneOS: HeliBoard is the keyboard
+PRODUCT_PACKAGES += \
+    HeliBoard
