@@ -11,6 +11,7 @@ android_app_import {
     apk: "DriftHome.apk",
     privileged: true,
     product_specific: true,
+    default_dev_cert: true,
     dex_preopt: {
         enabled: false,
     },
