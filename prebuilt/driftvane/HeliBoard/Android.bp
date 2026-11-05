@@ -11,6 +11,8 @@ android_app_import {
     name: "HeliBoard",
     apk: "HeliBoard.apk",
     presigned: true,
+    // already signed (v2+) and aligned by HeliBoard; the build must not repack it
+    preprocessed: true,
     product_specific: true,
     dex_preopt: {
         enabled: false,
