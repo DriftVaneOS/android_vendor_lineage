@@ -130,7 +130,7 @@
             4 - Go to voice assist
             5 - Go to assistant (Settings.Secure.ASSISTANT)
     -->
-    <integer name="config_longPressOnPowerBehavior">5</integer>
+    <integer name="config_longPressOnPowerBehavior">1</integer>
 
     <!-- DriftVaneOS: Google is the default digital assistant (when installed) -->
     <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
