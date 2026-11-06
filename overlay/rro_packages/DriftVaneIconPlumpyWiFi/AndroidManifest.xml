@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The DriftVaneOS Project
+     SPDX-License-Identifier: Apache-2.0
+
+     Plumpy Wi-Fi icons by DrDisagree, from crDroid android_vendor_themes (AxThemeStore).
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.driftvane.overlay.wifi.plumpy">
+
+    <application android:label="Plumpy" android:hasCode="false" />
+
+    <overlay
+        android:targetPackage="android"
+        android:category="android.theme.customization.wifi_icon" />
+</manifest>

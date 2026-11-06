@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The DriftVaneOS Project
+     SPDX-License-Identifier: Apache-2.0
+
+     Rel signal icons by rdx420, from crDroid android_vendor_themes (AxThemeStore).
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.driftvane.overlay.signal.rel">
+
+    <application android:label="Rel" android:hasCode="false" />
+
+    <overlay
+        android:targetPackage="android"
+        android:category="android.theme.customization.signal_icon" />
+</manifest>

@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: The DriftVaneOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+// Circle signal icons by rdx420, from crDroid android_vendor_themes (AxThemeStore).
+//
+
+runtime_resource_overlay {
+    name: "DriftVaneIconCircleSignal",
+    certificate: "platform",
+    product_specific: true,
+}

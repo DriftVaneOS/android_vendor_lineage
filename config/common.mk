@@ -331,3 +331,6 @@ PRODUCT_PACKAGES += \
 # DriftVaneOS: HeliBoard is the keyboard
 PRODUCT_PACKAGES += \
     HeliBoard
+
+# DriftVaneOS: status bar icon and battery styles
+include vendor/lineage/config/driftvane_iconpacks.mk
