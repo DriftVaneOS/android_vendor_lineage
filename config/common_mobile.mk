@@ -18,7 +18,8 @@ PRODUCT_PACKAGES += \
     AvatarPicker \
     Backgrounds \
     Canvas \
-    Glimpse
+    Glimpse \
+    LatinIME
 
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
