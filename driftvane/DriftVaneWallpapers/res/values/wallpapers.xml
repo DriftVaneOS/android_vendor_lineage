@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="partner_wallpapers" translatable="false">
+        <item>driftvane_logo_neon</item>
+        <item>driftvane_logo_aurora</item>
+        <item>driftvane_logo_glass</item>
+        <item>driftvane_logo_topo</item>
+        <item>driftvane_logo_sunset</item>
         <item>driftvane_default</item>
         <item>driftvane_frost_arcs</item>
         <item>driftvane_frost_glow</item>
