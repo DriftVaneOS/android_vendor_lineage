@@ -1,0 +1,14 @@
+//
+// SPDX-FileCopyrightText: DriftVaneOS
+// SPDX-License-Identifier: Apache-2.0
+//
+// DriftVaneOS wallpapers, shown in Wallpaper & style.
+// The picker finds them through the partner customization action.
+//
+
+android_app {
+    name: "DriftVaneWallpapers",
+    sdk_version: "current",
+    product_specific: true,
+    certificate: "platform",
+}

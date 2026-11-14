@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: The DriftVaneOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+// Sneaky signal icons by Advaith Bhat, from crDroid android_vendor_themes (AxThemeStore).
+//
+
+runtime_resource_overlay {
+    name: "DriftVaneIconSneakySignal",
+    certificate: "platform",
+    product_specific: true,
+}

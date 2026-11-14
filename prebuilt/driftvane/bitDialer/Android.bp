@@ -1,0 +1,12 @@
+// SPDX-FileCopyrightText: bitDroid
+// SPDX-License-Identifier: Apache-2.0
+// bitDialer (cashhwocky/bitDialer), preinstalled in bitDroid.
+android_app_import {
+    name: "bitDialer",
+    apk: "bitDialer.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    dex_preopt: { enabled: false },
+    overrides: ["Dialer"],
+}

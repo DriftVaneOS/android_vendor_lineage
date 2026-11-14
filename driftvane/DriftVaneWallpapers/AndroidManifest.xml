@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DriftVaneOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.driftvane.wallpapers">
+
+    <application
+        android:label="DriftVaneOS wallpapers"
+        android:hasCode="false">
+        <receiver
+            android:name=".PartnerReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.launcher3.action.PARTNER_CUSTOMIZATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

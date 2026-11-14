@@ -307,3 +307,42 @@ include vendor/lineage/config/version.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
+
+# DriftVaneOS: preinstalled apps
+PRODUCT_PACKAGES += \
+    AlexLMP \
+    DriftHome
+
+# DriftVaneOS: Forlorn status bar icons (by DrDisagree, via crDroid)
+PRODUCT_PACKAGES += \
+    DriftVaneForlornSignalOverlay \
+    DriftVaneForlornSystemUIOverlay \
+    DriftVaneForlornWiFiOverlay
+
+# DriftVaneOS: wallpapers
+PRODUCT_PACKAGES += \
+    DriftVaneWallpapers
+
+# DriftVaneOS: lock screen clocks
+PRODUCT_PACKAGES += \
+    DriftVaneClocks
+
+
+# DriftVaneOS: status bar icon and battery styles
+include vendor/lineage/config/driftvane_iconpacks.mk
+
+# bitDroid: bitKeys keyboard (default; the AOSP keyboard stays as a backup)
+PRODUCT_PACKAGES += bitKeys
+
+# bitDroid: bitMessages
+PRODUCT_PACKAGES += bitMessages
+
+# bitDroid: bitDialer
+PRODUCT_PACKAGES += bitDialer
+
+# bitDroid: AlexLMP
+PRODUCT_PACKAGES += AlexLMP
+
+
+# bitDroid: bitMaps
+PRODUCT_PACKAGES += bitMaps

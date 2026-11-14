@@ -12,6 +12,7 @@ genrule {
     tool_files: [
         "bootanimation.tar",
         "desc.txt",
+        "driftvane-bootanimation.zip",
         "gen-bootanimation.sh",
     ],
     out: ["bootanimation.zip"],

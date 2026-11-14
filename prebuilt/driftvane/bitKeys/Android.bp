@@ -1,0 +1,11 @@
+// SPDX-FileCopyrightText: bitDroid
+// SPDX-License-Identifier: Apache-2.0
+// bitKeys (cashhwocky/bitKeys), preinstalled in bitDroid.
+android_app_import {
+    name: "bitKeys",
+    apk: "bitKeys.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    dex_preopt: { enabled: false },
+}

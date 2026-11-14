@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The DriftVaneOS Project
+     SPDX-License-Identifier: Apache-2.0
+
+     iOS 15 battery style by Iconify, from crDroid android_vendor_themes (AxThemeStore).
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.driftvane.overlay.battery.ios15">
+
+    <application android:label="iOS 15" android:hasCode="false" />
+
+    <overlay
+        android:targetPackage="com.android.systemui"
+        android:category="android.theme.customization.battery_style" />
+</manifest>

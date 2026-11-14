@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: The DriftVaneOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+// Forlorn wifi and cell icons for the new status bar icon style by DrDisagree, from crDroid's android_vendor_themes.
+//
+
+runtime_resource_overlay {
+    name: "DriftVaneForlornSystemUIOverlay",
+    certificate: "platform",
+    product_specific: true,
+}

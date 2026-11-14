@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="partner_wallpapers" translatable="false">
+        <item>bitdroid_midnight_clover</item>
+        <item>bitdroid_petal_bloom</item>
+        <item>bitdroid_cookie_field</item>
+        <item>bitdroid_morning_bloom</item>
+        <item>bitdroid_glow_logo</item>
+        <item>bitdroid_bits</item>
+        <item>bitdroid_sunset</item>
+        <item>bitdroid_ocean</item>
+        <item>bitdroid_emerald</item>
+        <item>bitdroid_crimson</item>
+        <item>bitdroid_ink</item>
+        <item>bitdroid_lilac</item>
+        <item>bitdroid_glow</item>
+        <item>driftvane_default</item>
+        <item>driftvane_frost_arcs</item>
+        <item>driftvane_frost_glow</item>
+        <item>driftvane_indigo_contours</item>
+        <item>driftvane_indigo_vanes</item>
+        <item>driftvane_jade_contours</item>
+        <item>driftvane_jade_glow</item>
+        <item>driftvane_lemongrass_arcs</item>
+        <item>driftvane_lemongrass_drift</item>
+        <item>driftvane_moonstone_contours</item>
+        <item>driftvane_moonstone_drift</item>
+        <item>driftvane_obsidian_drift</item>
+        <item>driftvane_obsidian_vanes</item>
+        <item>driftvane_porcelain_arcs</item>
+        <item>driftvane_porcelain_glow</item>
+    </string-array>
+</resources>

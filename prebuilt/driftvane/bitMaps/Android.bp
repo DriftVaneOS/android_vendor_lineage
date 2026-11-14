@@ -1,0 +1,11 @@
+// SPDX-FileCopyrightText: bitDroid
+// SPDX-License-Identifier: Apache-2.0
+// bitMaps (cashhwocky/bitMaps), preinstalled in bitDroid.
+android_app_import {
+    name: "bitMaps",
+    apk: "bitMaps.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    dex_preopt: { enabled: false },
+}

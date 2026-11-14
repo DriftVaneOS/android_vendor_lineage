@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The DriftVaneOS Project
+     SPDX-License-Identifier: Apache-2.0
+
+     Forlorn wifi and cell icons (new status bar icon style) by DrDisagree (crDroid android_vendor_themes).
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.driftvane.overlay.forlorn.systemui">
+
+    <overlay
+        android:isStatic="true"
+        android:priority="50"
+        android:targetPackage="com.android.systemui" />
+</manifest>

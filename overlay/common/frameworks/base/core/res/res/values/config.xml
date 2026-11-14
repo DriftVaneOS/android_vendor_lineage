@@ -132,6 +132,9 @@
     -->
     <integer name="config_longPressOnPowerBehavior">1</integer>
 
+    <!-- DriftVaneOS: Google is the default digital assistant (when installed) -->
+    <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
+
     <!-- Control the behavior when the user presses the power and volume up buttons together.
             0 - Nothing
             1 - Mute toggle
@@ -188,4 +191,8 @@
     <string-array name="theming_defaults" translatable="false">
         <item>*|TONAL_SPOT|#63a3ad</item>
     </string-array>
+    <!-- bitDroid: default texting app -->
+    <string name="config_defaultSms" translatable="false">com.bitdroid.messages</string>
+    <!-- bitDroid: default phone app -->
+    <string name="config_defaultDialer" translatable="false">com.bitdroid.dialer</string>
 </resources>
